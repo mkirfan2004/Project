@@ -1,0 +1,70 @@
+# Node.js
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+/dist/
+/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite
+frontend/.vite/
+
+# Misc
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# Dependency directories
+backend/node_modules/
+frontend/node_modules/
+
+# Ignore local database/test files
+test-db.js
+
+# Ignore public assets (optional)
+frontend/public/
+
+# Ignore output
+*.out
+
+# Ignore package-lock
+package-lock.json
+yarn.lock
+
+# Ignore compiled files
+*.tsbuildinfo
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore backups
+*.bak
+
+# Ignore frontend build
+frontend/dist/
+
+# Ignore backend build
+backend/dist/
+
+# Ignore coverage
+backend/coverage/
+frontend/coverage/
+
+backend/.env
